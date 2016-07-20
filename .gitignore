@@ -1,0 +1,28 @@
+# Application
+public/mu-plugins/*/
+public/plugins/*
+!public/plugins/.gitkeep
+public/upgrade
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Assets
+public/assets
+
+# Composer
+vendor/*
+
+# Dotfiles
+.env
+.env.*
+!.env.example
+
+# Node Package Manager
+node_modules
+
+# Vagrant
+bin
+.vagrant
+
+# WordPress
+public/cms

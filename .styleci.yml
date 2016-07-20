@@ -1,0 +1,14 @@
+preset: psr2
+
+risky: false
+
+linting: true
+
+enabled:
+  - short_array_syntax
+  - unalign_double_arrow
+  - unalign_equals
+
+finder:
+  name:
+    - "*.php"

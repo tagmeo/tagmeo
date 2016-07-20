@@ -1,0 +1,49 @@
+{
+  "assetsPath": "resources/assets",
+  "publicPath": "public/assets",
+  "css": {
+    "folder": "css",
+    "outputFolder": "css",
+    "sass": {
+      "folder": "scss"
+    }
+  },
+  "img": {
+    "folder": "img",
+    "outputFolder": "img"
+  },
+  "js": {
+    "folder": "js",
+    "outputFolder": "js"
+  },
+  "browserSync": {
+    "proxy": "tagmeo.dev"
+  },
+  "assets": {
+    "tagmeo-style": {
+      "file": "app.css"
+    },
+    "tagmeo-modernizr": {
+      "file": "modernizr.js"
+    },
+    "tagmeo-vendor": {
+      "file": "vendor.js",
+      "dependsOn": [
+        "tagmeo-modernizr"
+      ]
+    },
+    "tagmeo-script": {
+      "file": "app.js",
+      "dependsOn": [
+        "tagmeo-vendor"
+      ]
+    },
+    "tagmeo-customizer": {
+      "file": "customizer.js",
+      "dependsOn": [
+        "tagmeo-script",
+        "customize-preview"
+      ]
+    }
+  }
+}

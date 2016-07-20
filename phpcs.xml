@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ruleset name="Tagmeo">
+    <description>Tagmeo Coding Standards</description>
+    <exclude-pattern>public/cms/</exclude-pattern>
+    <exclude-pattern>public/mu-plugins/</exclude-pattern>
+    <exclude-pattern>public/plugins/</exclude-pattern>
+    <exclude-pattern>public/upgrade/</exclude-pattern>
+    <exclude-pattern>vendor/</exclude-pattern>
+    <arg value="-colors"/>
+    <arg value="s"/>
+    <rule ref="PSR2"/>
+</ruleset>
